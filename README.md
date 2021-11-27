@@ -19,7 +19,7 @@ This project requires a little bit of setup from:
   4. Create Droplet 
   5. Create a token for that new droplet that has read/write access
 
-### Install Docker 
+### Install Docker Within DigitalOcean Console 
    - This can be done with these sets of commands 
      ```
      sudo apt-get update
@@ -31,9 +31,10 @@ This project requires a little bit of setup from:
      sudo usermod -aG docker [user]
      sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
      sudo chmod +x /usr/local/bin/docker-compose
+     sudo systemctl start docker
      ```
    - ***Note*** [user] should be your name on your Linux machine 
-## Install Wireguard 
+## Install Wireguard On DitialOcean 
 1. First issue the commands to make the appropriate directories and yml file 
     ```
     mkdir -p ~/wireguard/
@@ -77,8 +78,8 @@ This project requires a little bit of setup from:
 5. Change peers to however many config files, unique to each device, you want connected to your VPN with unique names 
 6. Save the file and exit 
 ### Start WireGuard 
-  - Download the WireGuard app on your device(s) [here](https://www.wireguard.com/install/)
-  - To begin running Wireguard execute to commands 
+  - Download the WireGuard app on your device(s) [here](https://www.wireguard.com/install/) on your machine
+  - To begin running Wireguard execute to commands within DigitalOcean
     ```
     cd ~/wireguard/
     docker-compose up -d
