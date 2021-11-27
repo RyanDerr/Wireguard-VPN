@@ -91,6 +91,9 @@ This project requires a little bit of setup from:
 ## Completion 
 Once completed you now have your VPN up and running. Upon testing you should be able to see location differences from when the VPN is active and when it is off. 
 ### VPN On Laptop 
+![WireGuardLaptop](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PCVPN.png)
 ### VPN on Phone 
 #### Before 
+![WGPhoneBefore](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneBefore.png)
 #### After 
+![WGPhoneAfter](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneAfter.png)
