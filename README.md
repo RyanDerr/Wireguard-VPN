@@ -88,6 +88,9 @@ This project requires a little bit of setup from:
     ```
     docker-compose logs -f wireguard
     ```
+     - Download the congiuration file from the droplet if running on a PC and within WireGuard click add tunnel in the buttom left corner and select your downloaded config file. 
+     - ***Reminder***: One config file per device
+  - ***Now ativate your VPN on device of your choice and you're done!***
 ## Completion 
 Once completed you now have your VPN up and running. Upon testing you should be able to see location differences from when the VPN is active and when it is off. 
 ### VPN On Laptop 
