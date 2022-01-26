@@ -101,5 +101,3 @@ Once completed you now have your VPN up and running. Upon testing you should be 
 ![WGPhoneBefore](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneBefore.png)
 #### After 
 ![WGPhoneAfter](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneAfter.png)
-## Completed 
-![Completion](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/Completed.jpg)
