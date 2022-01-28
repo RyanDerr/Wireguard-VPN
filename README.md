@@ -34,6 +34,7 @@ This project requires a little bit of setup from:
      sudo systemctl start docker
      ```
    - ***Note*** [user] should be your name on your Linux machine 
+   - Also may need to run command `pip3 install --upgrade --force-reinstall --no-cache-dir docker-compose && ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose` if docker-compose fails 
 ## Install Wireguard On DitialOcean 
 1. First issue the commands to make the appropriate directories and yml file 
     ```
