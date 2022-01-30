@@ -79,7 +79,7 @@ This project requires a little bit of setup from:
 4. Configure SERVERURL to your DigitalOcean server IP address found on your DigitalOcean control panel 
 5. Change peers to however many config files, unique to each device, you want connected to your VPN with unique names 
 6. Save the file and exit 
-### Start WireGuard 
+### Start WireGuard Windows
   - Download the WireGuard app on your device(s) [here](https://www.wireguard.com/install/) on your machine
   - To begin running Wireguard execute to commands within DigitalOcean
     ```
@@ -93,9 +93,17 @@ This project requires a little bit of setup from:
      - Download the congiuration file from the droplet if running on a PC and within WireGuard click add tunnel in the buttom left corner and select your downloaded config file. 
      - ***Reminder***: One config file per device
   - ***Now ativate your VPN on device of your choice and you're done!***
+
+### Start WireGuard Linux 
+ - Download Wireguard Packages using the command `sudo apt install wireguard`
+ - From the DigitalOcean console download the VPN conf file for whatever device you are currently running. 
+    - ***Reminder***: One config file per device
+ - Once downloaded open connection settings and add VPN selecting import VPN connection
+ - Select the downloaded conf file to add the VPN settings to the network manager
+ - Once completed head to network connections and connect to the VPN! 
 ## Completion 
 Once completed you now have your VPN up and running. Upon testing you should be able to see location differences from when the VPN is active and when it is off. 
-### VPN On Laptop 
+### VPN On Laptop (Windows)
 ![WireGuardLaptop](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PCVPN.png)
 ![WireguardImage](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/wireguard%20pic.PNG)
 ### VPN on Phone 
