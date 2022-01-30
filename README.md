@@ -111,3 +111,6 @@ Once completed you now have your VPN up and running. Upon testing you should be 
 ![WGPhoneBefore](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneBefore.png)
 #### After 
 ![WGPhoneAfter](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneAfter.png)
+
+## Other Important Info 
+As a reminder you get $100 free credits from DigitalOcean, once you use enough data to be changed that amount your card will be charged. In order to sovle this destroy your account every 2 months or so, or whenever you use a lot of data, and rebuild using the same info as DigitalOcean will still give you the free credit reguardless. 
