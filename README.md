@@ -106,9 +106,11 @@ Once completed you now have your VPN up and running. Upon testing you should be 
 ### VPN On Laptop (Windows)
 <img src="https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/wireguard%20pic.PNG" width="700" height="500">
 <img src="https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PCVPN.png" width="800" height="500">
+
 ### VPN on Phone 
 #### Before 
 <img src="https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneBefore.png" width="500" height="500">
+
 #### After 
 <img src="https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneAfter.png" width="500" height="500">
 
