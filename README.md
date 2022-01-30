@@ -104,13 +104,13 @@ This project requires a little bit of setup from:
 ## Completion 
 Once completed you now have your VPN up and running. Upon testing you should be able to see location differences from when the VPN is active and when it is off. 
 ### VPN On Laptop (Windows)
-![WireGuardLaptop](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PCVPN.png)
-![WireguardImage](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/wireguard%20pic.PNG)
+<img src="https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/wireguard%20pic.PNG" width="700" height="500">
+<img src="https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PCVPN.png" width="800" height="500">
 ### VPN on Phone 
 #### Before 
-![WGPhoneBefore](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneBefore.png)
+<img src="https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneBefore.png" width="500" height="500">
 #### After 
-![WGPhoneAfter](https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneAfter.png)
+<img src="https://github.com/RyanDerr/Wireguard-VPN/blob/main/Pictures/PhoneAfter.png" width="500" height="500">
 
 ## Other Important Info 
 As a reminder you get $100 free credits from DigitalOcean, once you use enough data to be changed that amount your card will be charged. In order to sovle this destroy your account every 2 months or so, or whenever you use a lot of data, and rebuild using the same info as DigitalOcean will still give you the free credit reguardless. 
