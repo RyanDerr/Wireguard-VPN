@@ -74,7 +74,7 @@ This project requires a little bit of setup from:
        sysctls:
          - net.ipv4.conf.all.src_valid_mark=1
      ```
-     - ***Note to Self***: There may be an issue with yml syntax, causing a NoneType error
+     - ***Note to Self***: There may be an issue with yml syntax, causing a NoneType error, look at actual MD file syntax. 
 3. Configure TZ to whatever timezone you're in from the list [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 4. Configure SERVERURL to your DigitalOcean server IP address found on your DigitalOcean control panel 
 5. Change peers to however many config files, unique to each device, you want connected to your VPN with unique names 
